@@ -1,0 +1,24 @@
+{
+    "name": "yinjinshun/lingchuang",
+    "description": "this is a demo for lingchuang test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eddy",
+            "email": "109491490@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.6.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"Ford\\Escape\\":"src/Ford/Escape",
+			"Ford\\Fusion\\":"src/Ford/Fusion",
+			"Ford\\Focus\\":"src/Ford/Focus",
+			"Ford\\Fiesta\\":"src/Ford/Fiesta"
+		}
+	}
+}
